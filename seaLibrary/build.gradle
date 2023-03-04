@@ -46,7 +46,7 @@ afterEvaluate {
                 //建议和github地址对应，否则对jitpack无效
                 groupId = 'com.github.sea2'
                 //建议和github仓库名称对应，否则对jitpack无效
-                artifactId = 'lhy-library'
+                artifactId = 'lhy-libraey'
                 //建议和release的tag相同，否则对jitpack无效
                 version = '1.0'
             }
