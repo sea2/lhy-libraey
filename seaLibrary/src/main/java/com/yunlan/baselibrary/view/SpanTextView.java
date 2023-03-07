@@ -18,7 +18,7 @@ import java.util.List;
 
 import androidx.annotation.Nullable;
 
-/**
+/**  多段 文本 适用类似协议
  * Created by lhy on 2020/9/8 0008.
  */
 public class SpanTextView extends TextView {
