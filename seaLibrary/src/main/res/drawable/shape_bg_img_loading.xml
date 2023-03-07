@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--这种方式拿到的是带有缩放的效果，即便给item 设置了gravity 并且从模拟器上看到的效果是不缩放的，但是真机上依旧是缩放的效果-->
+
+    <item>
+
+        <shape android:shape="rectangle">
+        <corners android:radius="10dp"/>
+
+        <solid android:color="#f6f6f6"/>
+    </shape>
+    </item>
+    <item
+        android:gravity="center"
+      >
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_no_img_show"/>
+    </item>
+
+</layer-list>
